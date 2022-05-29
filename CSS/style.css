@@ -60,7 +60,7 @@ header nav ul li a:hover {
     align-content: center;
     align-items: center;
     text-align: center;
-    font-size: auto;
+    font-size: 50px;
     font-style: bold;
 
 }
@@ -71,53 +71,47 @@ header nav ul li a:hover {
     margin-top: 40px;
 }
 
-.section1{
-    box-sizing: border-box;
-    background-color: rgb(54, 69, 54);
-    background-size: auto;
+.info{
+    background-color: none;
+    align-items: center;
+    align-content: center;
+    color: rgb(11, 52, 11);
     font-family: "poppins";
-    color: azure;
-    padding: 30px;
-    margin-top: 30px;
-    width: 50%;
-    border-bottom: 10;
-    float: left;
-    margin-left: 10%;
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    font-weight: 900;
 
 }
 
-.section2 {
-    box-sizing: border-box;
-    width: 50%;
-    background-size: auto;
-    float: inline-end;
-}
+
 
 #subtitulo{
     font-family: "league spartan";
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+    padding: 2%;
     background-color: rgb(54, 69, 54);
     color: rgb(234, 228, 220);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20%;
-    margin-top: 5%;
-    margin-right: 5%;
-    float: inline-end;
-}
-
-#foto-opiniones{
-    width: 500px;
-    box-sizing: border-box;
-    float: inline-end;
-    margin-right: 5%;
-    padding-right: 20%;
+    margin-top: 15%;
+    align-content: center;
     align-items: center;
-
+    justify-content: center;
 }
-.info{
-    display: flex;
 
+.grid-area2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    grid-template-rows: 1fr;
+    font-size: 20px;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .foto{
