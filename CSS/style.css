@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.color-de-fondo{
+    background-color: rgb(234, 228, 220);
+}
+
+#header{
+    box-sizing: border-box;
+    background-color: white;
+    padding: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.logo{
+    margin-right: auto;
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 200px;
+}
+
+#header .menu{
+    text-decoration-line: none;
+    text-decoration: none;
+    text-decoration-style: none;
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    font-family: "koulen";
+    gap: 15px;
+    font-size: larger;
+    }
+
+header nav ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+header nav ul li a:hover {
+        color: black
+        background-color rgb(245, 236, 226);
+}
+
+.titulo{
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 120px;
+    margin-top: 100px;
+    font-family: "league spartan";
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: auto;
+    font-style: bold;
+
+}
+
+.foto-inicio{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.section1{
+    box-sizing: border-box;
+    background-color: rgb(54, 69, 54);
+    background-size: auto;
+    font-family: "poppins";
+    color: azure;
+    padding: 30px;
+    margin-top: 30px;
+    width: 50%;
+    border-bottom: 10;
+    float: left;
+    margin-left: 10%;
+
+}
+
+.section2 {
+    box-sizing: border-box;
+    width: 50%;
+    background-size: auto;
+    float: inline-end;
+}
+
+#subtitulo{
+    font-family: "league spartan";
+    margin-bottom: 20px;
+    background-color: rgb(54, 69, 54);
+    color: rgb(234, 228, 220);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20%;
+    margin-top: 5%;
+    margin-right: 5%;
+    float: inline-end;
+}
+
+#foto-opiniones{
+    width: 500px;
+    box-sizing: border-box;
+    float: inline-end;
+    margin-right: 5%;
+    padding-right: 20%;
+    align-items: center;
+
+}
+.info{
+    display: flex;
+
+}
+
+.foto{
+    border: 0ch;
+    margin-right: auto;
+    width: 500px;
+    display: flex;
+}
+
+.location{
+    margin-bottom: 100px;
+}
+
+.contacto{
+    font-family: "abel";
+}
+
+.titulo2{
+    margin-top: 180px;
+    font-family: "koulen";
+    margin-left: 20px;
+}
+
+.texto{
+    font-family: "poppins";
+    background-size: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 500px;
+    border-bottom: 10;
+}
+
+.menu{
+    font-family: "koulen";
+    gap: 5px;
+    text-decoration: none;
+}
+
+.informacion{
+    list-style: none;
+    background-color: rgb(54, 69, 54);
+    color: rgb(234, 228, 220);
+    padding-left: 20px;
+    width: 700px;
+    font-family: poppins;
+}
+
+.foto-galeria{
+    width: 300px;
+}
+
+#footer{
+    background-color: white;
+    margin-top: 200px;
+    padding: 50px;
+    font-family: "league spartan";
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#footer .footer-redes{
+    width: 45px;
+    display: flex;
+    gap: 10px; 
+
+}
+
+#footer .footer-texto{
+    display: flex;
+}
+
+.grid-area{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+
+@media (max-width: 549px) {
+    #header {
+        background-color: rgb(234, 228, 220);
+        width: 100%;
+    }
+    #header .menu{
+        width: 50%;
+    }
+    #header .menu{
+        width: 20%;
+    }
+  
+    #footer {
+        background-color: rgb(234, 228, 220);
+        width: 100%;
+    }
+    #footer .footer-texto{
+        width: 30%;
+    }
+    #footer .footer-redes{
+        width: 30%;
+    }
+   
+
+    }
+
+
