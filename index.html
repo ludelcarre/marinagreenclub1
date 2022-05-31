@@ -32,11 +32,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Handlee&family=Koulen&family=League+Spartan:wght@100&family=Poppins:wght@100&family=Radio+Canada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Handlee&family=Josefin+Sans&family=Koulen&family=League+Spartan:wght@100&family=Mulish:wght@500&family=Nanum+Gothic:wght@700&family=Nunito+Sans:wght@300&family=Poppins:wght@100&family=Radio+Canada&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Handlee&family=Josefin+Sans&family=Koulen&family=League+Spartan:wght@100&family=Montserrat:wght@400;500&family=Mulish:wght@500&family=Nanum+Gothic:wght@700&family=Nunito+Sans:wght@300&family=Poppins:wght@100&family=Radio+Canada&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Handlee&family=Josefin+Sans&family=Koulen&family=League+Spartan:wght@100&family=Montserrat:wght@200;400;500&family=Mulish:wght@500&family=Nanum+Gothic:wght@700&family=Nunito+Sans:wght@300&family=Poppins:wght@100&family=Radio+Canada&display=swap" rel="stylesheet">
 
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+   
 </head>
 
-<body>
+<body class="color-de-fondo">
 
 <div>
     <div class="contenedor">
@@ -48,14 +62,30 @@
 
      <nav>
        <div>
-            <ul class="menu">
-                <li> <a href="./index.html"> Inicio   </a></li>
-                <li><a href="./pages/servicios.html"> Servicios  </a></li>
-                <li><a href="./pages/galeria.html"> Galeria </a></li>
-                <li><a href="./pages/contacto.html"> Contacto </a></li>
-                <li><a href="./pages/departamentos.html"> Departamentos </a></li>
+           
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../mi-repositorio/index.html">Inicio</a>
+                      </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="../mi-repositorio/pages/departamentos.html" role="button" aria-expanded="false">Departamentos</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../mi-repositorio/pages/monoambientes.html">Monoambientes</a></li>
+                        <li><a class="dropdown-item" href="../mi-repositorio/pages/3ambientes.html">3 ambientes</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../mi-repositorio/pages/galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../mi-repositorio/pages/servicios.html">Servicios</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../mi-repositorio/pages/contacto.html">Contacto</a>
+                    </li>
+                  </ul>
 
-            </ul>
+            
         </div>
      </nav>
   
@@ -89,11 +119,11 @@
 
             <div class="grid-area2">
 
-            <h3>"Excelente lugar para vacaciones  en familia en Villa Gesell! lejos del ruido del centro, a 50 mts. De la playa, si está fresco hay pileta climatizada y jacuzzi calentito! La atención del personal es muy buena!!!"</h3>
+            <h3 class="texto-opiniones">"Excelente lugar para vacaciones  en familia en Villa Gesell! lejos del ruido del centro, a 50 mts. De la playa, si está fresco hay pileta climatizada y jacuzzi calentito! La atención del personal es muy buena!!!"</h3>
 
-            <h3>"Lugar hermoso para ir con mascotas . Atendido por sus dueños muy amables. Hay restsurant desayuno en el d to. Limpieza  pileta con agua tibia y jacuzzi . Un lugar para volver y a un cuadra de la playa"</h3>
+            <h3 class="texto-opiniones">"Lugar hermoso para ir con mascotas . Atendido por sus dueños muy amables. Hay restsurant desayuno en el d to. Limpieza  pileta con agua tibia y jacuzzi . Un lugar para volver y a un cuadra de la playa"</h3>
 
-            <h3>"Estuvimos a finales de octubre en familia con chicos, la pasaron muy bien, hay juegos para nenes, el parque precioso, el dpto también. Muy buena la atención en gral. Fito un genio! Volveríamos a ir."</h3>
+            <h3 class="texto-opiniones">"Estuvimos a finales de octubre en familia con chicos, la pasaron muy bien, hay juegos para nenes, el parque precioso, el dpto también. Muy buena la atención en gral. Fito un genio! Volveríamos a ir."</h3>
             </div>
 
             <div class="grid-area2">
@@ -107,6 +137,10 @@
             
 
     </div>
+
+
+ <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </body>
 

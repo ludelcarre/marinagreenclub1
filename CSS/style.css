@@ -49,6 +49,22 @@ header nav ul li a:hover {
         background-color rgb(245, 236, 226);
 }
 
+.nav-item .nav-link{
+    text-decoration: none;
+    color: black;
+    text-shadow: none;
+    text-decoration-line: none;
+    box-shadow: none;
+    font-family: "koulen";
+    font-size: 20px;
+}
+
+
+div ul li {
+    text-decoration: none;
+    
+}
+
 .titulo{
     box-sizing: border-box;
     width: 100%;
@@ -65,6 +81,13 @@ header nav ul li a:hover {
 
 }
 
+.texto-opiniones{
+    font-family: "poppins";
+    font-style: italic;
+    font-size: 25px;
+
+}
+
 .foto-inicio{
     width: 100%;
     height: auto;
@@ -76,17 +99,16 @@ header nav ul li a:hover {
     align-items: center;
     align-content: center;
     color: rgb(11, 52, 11);
-    font-family: "poppins";
+    font-family: "montserrat";
     font-size: 30px;
     text-align: center;
     align-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-top: 100px;
     font-weight: 900;
 
 }
-
 
 
 #subtitulo{
@@ -131,23 +153,40 @@ header nav ul li a:hover {
 
 .titulo2{
     margin-top: 180px;
+    margin-bottom: 3%;
     font-family: "koulen";
     margin-left: 20px;
 }
 
-.texto{
+.servicios{
     font-family: "poppins";
+    font-size: 25px;
     background-size: auto;
     padding-left: 30px;
     padding-right: 30px;
     width: 500px;
     border-bottom: 10;
+    text-decoration: none;
+    list-style: none;
 }
 
+#check-circle{
+    width: 30px
+}
+
+.foto-servicios{
+    padding-top: -100px;
+    width: 100%;
+}
 .menu{
     font-family: "koulen";
     gap: 5px;
     text-decoration: none;
+}
+
+.texto{
+    font-family: "poppins";
+    margin-left: 30px;
 }
 
 .informacion{
@@ -160,7 +199,32 @@ header nav ul li a:hover {
 }
 
 .foto-galeria{
-    width: 300px;
+    width: 200px;
+}
+
+
+.d-block{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.carousel-control-next-icon{
+   background-color: black;
+}
+
+.carousel-control-prev-icon{
+    background-color: black;
+}
+
+.container{
+    font-family: "josefin sans";
+    font-size: 45px;
+    font-kerning: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 #footer{
@@ -174,7 +238,7 @@ header nav ul li a:hover {
 }
 
 #footer .footer-redes{
-    width: 45px;
+    width: 30px;
     display: flex;
     gap: 10px; 
 
