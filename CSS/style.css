@@ -7,18 +7,7 @@
     background-color: rgb(234, 228, 220);
 }
 
-#header{
-    box-sizing: border-box;
-    background-color: white;
-    padding: 25px;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-    width: 100%;
-}
+
 
 .logo{
     margin-right: auto;
@@ -27,17 +16,7 @@
     width: 200px;
 }
 
-#header .menu{
-    text-decoration-line: none;
-    text-decoration: none;
-    text-decoration-style: none;
-    list-style: none;
-    display: flex;
-    justify-content:space-between;
-    font-family: "koulen";
-    gap: 15px;
-    font-size: larger;
-    }
+
 
 header nav ul li a {
         text-decoration: none;
@@ -65,10 +44,19 @@ div ul li {
     
 }
 
+.dropdown-item{
+    font-family: "koulen";
+}
+
+.navbar{
+            display: flex;
+            align-content: flex-end;
+            justify-content: end;
+}
+
 .titulo{
     box-sizing: border-box;
     width: 100%;
-    padding-top: 120px;
     margin-top: 100px;
     font-family: "league spartan";
     justify-items: center;
@@ -100,13 +88,14 @@ div ul li {
     align-content: center;
     color: rgb(11, 52, 11);
     font-family: "montserrat";
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     align-content: center;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
     margin-top: 100px;
     font-weight: 900;
+    line-height: 40px;
 
 }
 
@@ -135,6 +124,9 @@ div ul li {
     align-items: center;
     text-align: center;
 }
+.grid-area2 h2{
+    font-size: 28px
+}
 
 .foto{
     border: 0ch;
@@ -152,10 +144,12 @@ div ul li {
 }
 
 .titulo2{
-    margin-top: 180px;
+    margin-top: 30px;
     margin-bottom: 3%;
     font-family: "koulen";
-    margin-left: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 .servicios{
@@ -175,7 +169,6 @@ div ul li {
 }
 
 .foto-servicios{
-    padding-top: -100px;
     width: 100%;
 }
 .menu{
@@ -198,16 +191,16 @@ div ul li {
     font-family: poppins;
 }
 
-.foto-galeria{
-    width: 200px;
-}
-
-
 .d-block{
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 5%;
+    size: 100px;
 }
+
+
+
+.d-flex{
+    width: 2px;
+}
+
 
 .carousel-control-next-icon{
    background-color: black;
@@ -218,34 +211,33 @@ div ul li {
 }
 
 .container{
-    font-family: "josefin sans";
-    font-size: 45px;
-    font-kerning: auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
+    justify-items: end;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
-#footer{
-    background-color: white;
+.footer{
+    background-color: rgb(145, 143, 143);
     margin-top: 200px;
     padding: 50px;
     font-family: "league spartan";
     display: flex;
     align-items: center;
     justify-content: space-around;
+    font-size: 20px;
 }
 
-#footer .footer-redes{
-    width: 30px;
+.footer-texto{
+    font-size: 20px;
     display: flex;
-    gap: 10px; 
-
+    justify-content: space-between;
 }
 
-#footer .footer-texto{
+.footer-redes1{
     display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 .grid-area{
@@ -260,28 +252,59 @@ div ul li {
 
 
 @media (max-width: 549px) {
-    #header {
-        background-color: rgb(234, 228, 220);
-        width: 100%;
-    }
-    #header .menu{
-        width: 50%;
-    }
-    #header .menu{
-        width: 20%;
-    }
   
-    #footer {
-        background-color: rgb(234, 228, 220);
+    .footer {
+        background-color: rgb(116, 116, 116);
         width: 100%;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    
     }
-    #footer .footer-texto{
-        width: 30%;
+   .footer-texto{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        color: rgb(25, 25, 25);
     }
-    #footer .footer-redes{
-        width: 30%;
+    .footer-redes{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        width: 30px;
+        color: aliceblue;
+        border-color: beige;
+        filter: brightness(100%);
     }
-   
+
+    .footer-redes1{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        gap:10px;
+    }
+
+    .foto-servicios{
+        margin-top: 0px;
+    }
+
+    .titulo2{
+        font-size: 20px;
+    }
+
+   .servicios{
+       font-size: 15px;
+       line-height: 30px;
+   }
+   #check-circle{
+       width: 20px;
+   }
 
     }
 

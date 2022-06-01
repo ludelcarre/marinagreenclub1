@@ -37,28 +37,55 @@
 </head>
 <body>
 
-    <header id="header">
-        <a href="../index.html"><img class="logo" src="../Imagenes/logo_sinfondo.png" alt="Marina Green Logo"></a>
-<div>
-    <nav>
-
-        <ul class="menu">
-            <li> <a href="../index.html"> Inicio </a></li>
-            <li><a href="../pages/servicios.html"> Servicios </a></li>
-            <li><a href="../pages/galeria.html"> Galeria </a></li>
-            <li><a href="../pages/contacto.html"> Contacto </a></li>
-            <li><a href="../pages/departamentos.html"> Departamentos </a></li>
-
-        </ul>
-    </nav>
-</div>
+    <header class="header">
+        <div class="container">
+        
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"> <img src="../Imagenes/logo_sinfondo.png" alt="Logo Marina Green" class="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="../pages/departamentos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Departamentos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="../pages/monoambientes.html">Monoambientes</a></li>
+                      <li><a class="dropdown-item" href="../pages/3ambientes.html">3 ambientes</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+         
+            
+          
+          </nav>
+        </div>
+        </div>
+    </div>
     </header>
 
     <div>
 
-        <img src="../Imagenes/IMG_6610.jpg" alt="foto-servicios" class="foto-servicios">
+        <img src="../Imagenes/SERVICIOS.png" alt="foto-servicios" class="foto-servicios">
 
-    <h1 class="titulo2">Servicios</h1>
+    <h1 class="titulo2">En Marina Green Club ofrecemos:</h1>
 
     <ul class="servicios">
 
@@ -78,18 +105,21 @@
 </div>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <footer id="footer"> 
-        <h3 class="footer-texto">Marina Green Club S.A. |
+    <footer class="footer"> 
+    <div>
+        <div >
+             <h3 class="footer-texto">Marina Green Club S.A. |
             Avenida 1 y Paseo 149, Villa Gesell |
             Teléfono: +54 9 2325 68-9553
-        </h3>
+            </h3>
+            </div>
         
-        <div class="footer-redes">   
-        <a href="https://www.facebook.com/marinagreenclub"><img src="../Imagenes/20673.png" alt="Logo Facebook" class="footer-redes"></a>
-        <img src="../Imagenes/Email-Symbol-Transparent-Background.png" alt="logo mail" class="footer-redes">
-        <a href="https://www.instagram.com/marinagreenclub/"><img src="../Imagenes/instagram.png" alt="Logo Instagram" class="footer-redes"></a>
+        <div class="footer-redes1">   
+        <a href="https://www.facebook.com/marinagreenclub"><img src="../Imagenes/facebook.svg" alt="Logo Facebook" class="footer-redes"></a>
+        <img src="../Imagenes/envelope.svg" alt="logo mail" class="footer-redes">
+        <a href="https://www.instagram.com/marinagreenclub/"><img src="../Imagenes/instagram.svg" alt="Logo Instagram" class="footer-redes"></a>
         </div>
-    
+    </div>
     </footer>
 
 
