@@ -7,14 +7,21 @@
     background-color: rgb(234, 228, 220);
 }
 
-
-
 .logo{
     margin-right: auto;
     margin-left: 5%;
     margin-top: 20px;
     width: 200px;
+    display: flex;
 }
+
+.header{
+    background-color: #F8F9FA;
+    width: 100%;
+    display: flex;
+    position: sticky;
+}
+
 
 
 
@@ -38,26 +45,30 @@ header nav ul li a:hover {
     font-size: 20px;
 }
 
-
-div ul li {
+nav div ul li {
     text-decoration: none;
-    
+    align-items: flex-end;
+    justify-content: space-around;
 }
 
 .dropdown-item{
     font-family: "koulen";
 }
 
-.navbar{
-            display: flex;
-            align-content: flex-end;
-            justify-content: end;
+.video{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.foto-servicios{
+    margin-bottom: 100px;
 }
 
 .titulo{
     box-sizing: border-box;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     font-family: "league spartan";
     justify-items: center;
     justify-content: center;
@@ -93,10 +104,8 @@ div ul li {
     align-content: center;
     margin-left: 250px;
     margin-right: 250px;
-    margin-top: 100px;
     font-weight: 900;
     line-height: 40px;
-
 }
 
 
@@ -111,6 +120,23 @@ div ul li {
     align-items: center;
     justify-content: center;
 }
+
+.subtitulo-contacto{
+    font-family: "league spartan";
+    margin-bottom: 100px;
+    padding: 2%;
+    background-color: rgb(54, 69, 54);
+    color: rgb(234, 228, 220);
+    margin-top: 5%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
 
 .grid-area2{
     display: grid;
@@ -128,6 +154,13 @@ div ul li {
     font-size: 28px
 }
 
+
+.d-block{
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+    
 .foto{
     border: 0ch;
     margin-right: auto;
@@ -136,11 +169,16 @@ div ul li {
 }
 
 .location{
+    width: 800px;
+    height: 450px;
     margin-bottom: 100px;
+    margin-left: 300px;
 }
 
 .contacto{
-    font-family: "abel";
+    font-family: "montserrat";
+    font-size: 20px;
+    margin-left: 400px;
 }
 
 .titulo2{
@@ -155,6 +193,7 @@ div ul li {
 .servicios{
     font-family: "poppins";
     font-size: 25px;
+    line-height: 60px;
     background-size: auto;
     padding-left: 30px;
     padding-right: 30px;
@@ -162,6 +201,19 @@ div ul li {
     border-bottom: 10;
     text-decoration: none;
     list-style: none;
+    margin-left: 400px;
+}
+
+.monoambientes{
+        font-family: "poppins";
+        font-size: 25px;
+        line-height: 60px;
+        background-size: auto;
+        border-bottom: 10;
+        text-decoration: none;
+        list-style: none;
+        margin-left: 300px;
+        margin-right: 300px;
 }
 
 #check-circle{
@@ -179,23 +231,30 @@ div ul li {
 
 .texto{
     font-family: "poppins";
-    margin-left: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
-.informacion{
+.informacion-contacto{
+    font-family: "league spartan";
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
     list-style: none;
+    margin-bottom: 100px;
+    padding: 2%;
     background-color: rgb(54, 69, 54);
     color: rgb(234, 228, 220);
-    padding-left: 20px;
-    width: 700px;
-    font-family: poppins;
+    margin-top: 5%;
+    box-sizing: border-box;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 .d-block{
     size: 100px;
 }
-
-
 
 .d-flex{
     width: 2px;
@@ -218,7 +277,7 @@ div ul li {
 }
 
 .footer{
-    background-color: rgb(145, 143, 143);
+    background-color: rgb(189, 185, 185);
     margin-top: 200px;
     padding: 50px;
     font-family: "league spartan";
@@ -232,6 +291,11 @@ div ul li {
     font-size: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+.footer-redes{
+    width: 25px;
+    color: white;
 }
 
 .footer-redes1{
@@ -250,21 +314,29 @@ div ul li {
     padding-top: 40px;
 }
 
+.foto-galeria{
+    width: 400px;
+}
+
 
 @media (max-width: 549px) {
   
     .footer {
-        background-color: rgb(116, 116, 116);
+        background-color: rgb(189, 185, 185);
         width: 100%;
+        height: 80px;
         display: flex;
+        text-align: center;
         justify-content: center;
         justify-items: center;
         align-items: center;
         align-content: center;
+        margin-top: 100px;
     
     }
    .footer-texto{
         display: flex;
+        font-size: 15px;
         align-content: center;
         justify-content: center;
         color: rgb(25, 25, 25);
@@ -275,7 +347,7 @@ div ul li {
         justify-items: center;
         align-items: center;
         align-content: center;
-        width: 30px;
+        width: 20px;
         color: aliceblue;
         border-color: beige;
         filter: brightness(100%);
@@ -290,10 +362,7 @@ div ul li {
         gap:10px;
     }
 
-    .foto-servicios{
-        margin-top: 0px;
-    }
-
+    
     .titulo2{
         font-size: 20px;
     }
@@ -301,9 +370,95 @@ div ul li {
    .servicios{
        font-size: 15px;
        line-height: 30px;
+       margin-left: 5px;
+   }
+
+   .foto-servicios{
+       margin-top: 0px;
+       margin-bottom: 5px;
    }
    #check-circle{
        width: 20px;
+   }
+
+   .info{
+       margin-left: 20px;
+       margin-right: 20px;
+       margin-top: 50px;
+   }
+
+   .texto-opiniones{
+       font-size: 15px;
+   }
+   .grid-area2 h2{
+       font-size: 20px;
+       margin-top: 10px;
+   }
+
+   .titulo{
+       font-size: 30px;
+       margin-top: 50px;
+       margin-bottom: 20px;
+   }
+
+   #subtitulo{
+       margin-bottom: 50px;
+   }
+
+   .video{
+       margin-bottom: 5px;
+   }
+
+   .texto{
+       margin-left: 5px;
+       margin-right: 5px;
+       margin-top: 20px;
+       text-align: center;
+       font-size: 20px;
+   }
+
+   .monoambientes{
+       margin-left: 5px;
+       margin-right: 5px;
+       font-size: 20px;
+       line-height: 40px;
+   }
+
+   .d-block{
+       margin-left: 80px;
+       margin-right: 5px;
+   }
+
+   .foto-galeria{
+       width: 150px;
+   }
+
+   .subtitulo-contacto{
+       margin-left: 20px;
+       margin-right: 20px;
+       margin-bottom: 30px;
+   }
+
+   .contacto{
+       margin-left: 20px;
+       margin-right: 10px;
+   }
+
+   .location{
+       width: 500px;
+       margin-left: 20px;
+       margin-right: 20px;
+       margin-top: 0px;
+       margin-bottom: 20px;
+   }
+
+   .informacion-contacto{
+       margin-left: 30px;
+       margin-right: 30px;
+   }
+
+   .logo{
+       width: 150px;
    }
 
     }
