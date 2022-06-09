@@ -1,0 +1,221 @@
+.color-de-fondo{
+    background-color: rgb(234, 228, 220);
+    
+    
+.header{
+        background-color: #F8F9FA;
+        width: 100%;
+        display: flex;
+        position: sticky;
+            .logo{
+                margin-right: auto;
+                margin-left: 5%;
+                margin-top: 20px;
+                width: 200px;
+                display: flex;
+            }
+            .nav-item{
+                .nav-link{
+                    text-decoration: none;
+                    color: black;
+                    text-shadow: none;
+                    text-decoration-line: none;
+                    box-shadow: none;
+                    font-family: "koulen";
+                    font-size: 20px;
+                }
+            }
+            .dropdown-item{
+                font-family: "koulen";
+            }
+    
+}
+
+div{
+        .titulo{
+            box-sizing: border-box;
+            width: 100%;
+            margin-top: 70px;
+            margin-bottom: 70px;
+            font-family: "league spartan";
+            justify-items: center;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 50px;
+            font-style: bold;
+        }
+}
+
+div{
+    .video{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+}
+
+
+.info{
+        background-color: none;
+        align-items: center;
+        align-content: center;
+        color: rgb(11, 52, 11);
+        font-family: "montserrat";
+        font-size: 20px;
+        text-align: center;
+        align-content: center;
+        margin-left: 250px;
+        margin-right: 250px;
+        font-weight: 900;
+        line-height: 40px;
+        }
+
+
+div{
+    #subtitulo{
+        font-family: "league spartan";
+        margin-bottom: 100px;
+        padding: 2%;
+        background-color: rgb(54, 69, 54);
+        color: rgb(234, 228, 220);
+        margin-top: 15%;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        }
+
+    .grid-area2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        grid-template-rows: 1fr;
+        font-size: 20px;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+    
+    .texto-opiniones{
+        font-family: "poppins";
+        font-style: italic;
+        font-size: 25px;
+    }
+    .grid-area2{
+        h2{
+            font-size: 28px
+        }
+    }
+}
+    
+}
+}
+
+.footer{
+    background-color: rgb(189, 185, 185);
+    margin-top: 200px;
+    padding: 50px;
+    font-family: "league spartan";
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+        .footer-texto{
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+        .footer-redes{
+            width: 25px;
+            color: white;
+        .footer-redes1{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-items: center;
+            justify-content: center;
+            gap: 10px;
+        
+        }
+        }
+
+    }
+}
+
+@media (max-width:480px) {
+    .footer{
+        background-color: rgb(189, 185, 185);
+        width: 100%;
+        height: 130px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 100px;
+    
+        .footer-texto{
+            display: flex;
+            font-size: 15px;
+            align-content: center;
+            justify-content: center;
+            color: rgb(25, 25, 25);
+        }
+        .footer-redes{
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            width: 20px;
+            color: aliceblue;
+            border-color: beige;
+            filter: brightness(100%);
+        }
+        .footer-redes1{
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            gap:10px;
+        }
+    }
+    
+    .color-de-fondo{
+        div{
+        .titulo{
+            font-size: 25px;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        #subtitulo{
+            margin-bottom: 50px;
+        }
+        .grid-area2{
+            h2{
+                font-size: 20px;
+                margin-top: 10px;
+            }
+        .texto-opiniones{
+            font-size: 15px;
+            display: flex;
+        }    
+        }
+    }
+.info{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    font-size: 15px;
+     
+}
+div{
+    .video{
+        margin-bottom: 5px;
+}
+}
+    }
+
+}

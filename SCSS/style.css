@@ -1,1 +1,274 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.color-de-fondo {
+  background-color: #eae4dc;
+}
+
+.color-de-fondo .header {
+  background-color: #F8F9FA;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.color-de-fondo .header .logo {
+  margin-right: auto;
+  margin-left: 5%;
+  margin-top: 20px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.color-de-fondo .header .nav-item .nav-link {
+  text-decoration: none;
+  color: black;
+  text-shadow: none;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-family: "koulen";
+  font-size: 20px;
+}
+
+.color-de-fondo .header .dropdown-item {
+  font-family: "koulen";
+}
+
+.color-de-fondo div .titulo {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-family: "league spartan";
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 50px;
+  font-style: bold;
+}
+
+.color-de-fondo div .video {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.color-de-fondo .info {
+  background-color: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: #0b340b;
+  font-family: "montserrat";
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+  margin-left: 250px;
+  margin-right: 250px;
+  font-weight: 900;
+  line-height: 40px;
+}
+
+.color-de-fondo div #subtitulo {
+  font-family: "league spartan";
+  margin-bottom: 100px;
+  padding: 2%;
+  background-color: #364536;
+  color: #eae4dc;
+  margin-top: 15%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.color-de-fondo div .grid-area2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  font-size: 20px;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.color-de-fondo div .grid-area2 .texto-opiniones {
+  font-family: "poppins";
+  font-style: italic;
+  font-size: 25px;
+}
+
+.color-de-fondo div .grid-area2 .grid-area2 h2 {
+  font-size: 28px;
+}
+
+.footer {
+  background-color: #bdb9b9;
+  margin-top: 200px;
+  padding: 50px;
+  font-family: "league spartan";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 20px;
+}
+
+.footer .footer-texto {
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer-texto .footer-redes {
+  width: 25px;
+  color: white;
+}
+
+.footer .footer-texto .footer-redes .footer-redes1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+@media (max-width: 480px) {
+  .footer {
+    background-color: #bdb9b9;
+    width: 100%;
+    height: 130px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    margin-top: 100px;
+  }
+  .footer .footer-texto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 15px;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #191919;
+  }
+  .footer .footer-redes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    width: 20px;
+    color: aliceblue;
+    border-color: beige;
+    -webkit-filter: brightness(100%);
+            filter: brightness(100%);
+  }
+  .footer .footer-redes1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    gap: 10px;
+  }
+  .color-de-fondo div .titulo {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .color-de-fondo div #subtitulo {
+    margin-bottom: 50px;
+  }
+  .color-de-fondo div .grid-area2 h2 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .color-de-fondo div .grid-area2 .texto-opiniones {
+    font-size: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .color-de-fondo .info {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    font-size: 15px;
+  }
+  .color-de-fondo div .video {
+    margin-bottom: 5px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
